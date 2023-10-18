@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Email Template Design</title>
     <link
-      href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic"
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
       rel="stylesheet"
     />
     <style type="text/css">
@@ -87,6 +87,9 @@
           display: block !important;
           max-height: none !important;
         }
+        .res-margin {
+          padding-bottom: 10px !important;
+        }
       }
       /* Hybrid Column CSS */
       @media only screen and (max-width: 580px) {
@@ -97,6 +100,9 @@
         div {
           max-width: 100% !important;
         }
+        img.res-image {
+          max-width: 250px !important;
+        }
       }
     </style>
   </head>
@@ -104,8 +110,8 @@
     style="
       margin: 0;
       padding: 0;
-      background-color: #dddddd;
-      font-family: 'PT Sans', sans-serif;
+      background-color: #ffffff;
+      font-family: 'Poppins', sans-serif;
     "
   >
     <center>
@@ -117,7 +123,7 @@
         cellspacing="0"
         role="presentation"
         border="0"
-        bgcolor="#DDDDDD"
+        bgcolor="#FFFFFF"
       >
         <tr>
           <td align="center" valign="top">
@@ -169,7 +175,12 @@
                                     width="200"
                                     align="left"
                                     valign="bottom"
-                                    style="padding: 10px"
+                                    style="
+                                      padding: 10px;
+                                      font-weight: bold;
+                                      font-size: 14px;
+                                      letter-spacing: 1.7px;
+                                    "
                                   >
                                     NO. 01
                                   </td>
@@ -179,26 +190,35 @@
                                     valign="bottom"
                                     style="padding: 10px"
                                   >
-                                    <img
-                                      src="images/logo.png"
-                                      width="100%"
-                                      style="
-                                        margin: 0;
-                                        padding: 0;
-                                        border: none;
-                                        display: block;
-                                        max-width: 40px;
-                                      "
-                                      border="0"
-                                      class="img"
-                                      alt="image"
-                                    />
+                                    <a
+                                      href="https://www.makellos.com"
+                                      target="_blank"
+                                      style="text-decoration: none"
+                                      ><img
+                                        src="https://i.postimg.cc/HkzTQfs8/logo.png"
+                                        width="100%"
+                                        style="
+                                          margin: 0;
+                                          padding: 0;
+                                          border: none;
+                                          display: block;
+                                          max-width: 40px;
+                                        "
+                                        border="0"
+                                        class="img"
+                                        alt="image"
+                                    /></a>
                                   </td>
                                   <td
                                     width="200"
                                     align="right"
                                     valign="bottom"
-                                    style="padding: 10px"
+                                    style="
+                                      padding: 10px;
+                                      font-weight: bold;
+                                      font-size: 14px;
+                                      letter-spacing: 1.7px;
+                                    "
                                   >
                                     SEPT 2023
                                   </td>
@@ -237,7 +257,7 @@
                   >
                     <tr>
                       <td align="center" valign="top">
-                        <hr />
+                        <hr style="border: 1px solid #000" />
                       </td>
                     </tr>
                   </table>
@@ -268,17 +288,48 @@
                   >
                     <!-- ! DIVIDE  -->
                     <tr>
-                      <td align="center" valign="top">welcome to our</td>
+                      <td
+                        align="center"
+                        valign="top"
+                        style="
+                          text-transform: uppercase;
+                          font-weight: 700;
+                          font-size: 17px;
+                          letter-spacing: 2px;
+                        "
+                      >
+                        welcome to our
+                      </td>
                     </tr>
                     <!-- ! DIVIDE  -->
                     <tr>
-                      <td align="center" valign="top">Monthly Newsletter</td>
+                      <td
+                        align="center"
+                        valign="top"
+                        style="
+                          text-transform: uppercase;
+                          font-weight: 900;
+                          font-size: 38px;
+                          letter-spacing: 2px;
+                          text-shadow: 2px 2px grey;
+                        "
+                      >
+                        Monthly Newsletter
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
                     </tr>
                     <!-- ! DIVIDE  -->
                     <tr>
                       <td align="center" valign="top">
                         <img
-                          src="images/hero.png"
+                          src="https://i.postimg.cc/CxcVZkmj/hero.png"
                           width="100%"
                           style="
                             margin: 0;
@@ -293,37 +344,91 @@
                         />
                       </td>
                     </tr>
-                    <!-- ! DIVIDE  -->
                     <tr>
-                      <td align="left" valign="top">Dear Valued Friends,</td>
+                      <td
+                        height="15"
+                        style="font-size: 15px; line-height: 15px"
+                      >
+                        &nbsp;
+                      </td>
                     </tr>
                     <!-- ! DIVIDE  -->
                     <tr>
-                      <td align="left" valign="top">
+                      <td
+                        align="left"
+                        valign="top"
+                        style="
+                          text-transform: uppercase;
+                          font-weight: 700;
+                          font-size: 17px;
+                          letter-spacing: 2px;
+                        "
+                      >
+                        Dear Valued Friends,
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- ! DIVIDE  -->
+                    <tr>
+                      <td
+                        align="left"
+                        valign="top"
+                        style="
+                          font-weight: 500;
+                          font-size: 12px;
+                          letter-spacing: 1.3px;
+                        "
+                      >
                         We are excited to announce the launch of our new
                         newsletter!
-                        <br />
-                        <br />
-
+                        <span style="display: block; font-size: 10px">
+                          &nbsp;</span
+                        >
                         In this newsletter, we will keep you updated on recent
                         changes, updates, and exciting news within our company.
                         We will also share tips, advice, and resources that we
                         think you will find valuable.
-                        <br />
-                        <br />
+                        <span style="display: block; font-size: 10px">
+                          &nbsp;</span
+                        >
                         We hope you will subscribe to our newsletter and stay
                         connected with us.
                       </td>
                     </tr>
                     <!-- ! DIVIDE  -->
                     <tr>
-                      <td align="right" valign="top">CEO & CO-FOUNDER</td>
+                      <td
+                        height="15"
+                        style="font-size: 15px; line-height: 15px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        align="right"
+                        valign="top"
+                        style="
+                          font-weight: 700;
+                          font-size: 12px;
+                          letter-spacing: 1.5px;
+                        "
+                      >
+                        CEO & CO-FOUNDER
+                      </td>
                     </tr>
                     <!-- ! DIVIDE  -->
                     <tr>
                       <td align="right" valign="top">
                         <img
-                          src="images/sign.png"
+                          src="https://i.postimg.cc/wTczpSN4/sign.png"
                           width="100%"
                           style="
                             margin: 0;
@@ -369,6 +474,14 @@
                         <hr style="border: 5px solid black" />
                       </td>
                     </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
                   </table>
                 </td>
               </tr>
@@ -396,8 +509,17 @@
                     style="max-width: 600px; width: 100%"
                   >
                     <tr>
-                      <td align="center" valign="top">
-                        LEt’s DIVE INTO OUR HIGHLIGHTS
+                      <td
+                        align="center"
+                        valign="top"
+                        style="
+                          font-size: 30px;
+                          font-weight: 700;
+                          letter-spacing: 1.5px;
+                          text-shadow: 2px 2px grey;
+                        "
+                      >
+                        LET'S DIVE INTO OUR HIGHLIGHTS
                       </td>
                     </tr>
                   </table>
@@ -428,15 +550,77 @@
                   >
                     <!-- ? SPACE  -->
                     <tr>
-                      <td align="center" valign="top">
-                        <span>01. </span>MAKELLOS REBRAND
+                      <td align="left" valign="middle">
+                        <table
+                          width="600"
+                          cellspacing="0"
+                          cellpadding="0"
+                          border="0"
+                          align="center"
+                          style="max-width: 600px; width: 100%"
+                          bgcolor="#FFFFFF"
+                        >
+                          <tr>
+                            <td align="center" valign="top">
+                              <table
+                                width="600"
+                                cellspacing="0"
+                                cellpadding="0"
+                                border="0"
+                                align="center"
+                                style="max-width: 600px; width: 100%"
+                              >
+                                <tr>
+                                  <td
+                                    width="50"
+                                    align="left"
+                                    valign="middle"
+                                    style="
+                                      padding: 10px;
+                                      font-size: 50px;
+                                      font-weight: 700;
+                                      letter-spacing: 2px;
+                                      text-shadow: 2px 2px grey;
+                                      line-height: 23px;
+                                    "
+                                  >
+                                    01.
+                                  </td>
+                                  <td
+                                    width="550"
+                                    align="left"
+                                    valign="middle"
+                                    style="
+                                      padding: 10px;
+                                      font-size: 23px;
+                                      font-weight: 700;
+                                      letter-spacing: 2px;
+                                      text-shadow: 2px 2px grey;
+                                      line-height: 23px;
+                                    "
+                                  >
+                                    MAKELLOS REBRAND
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="20"
+                        style="font-size: 20px; line-height: 20px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ? SPACE  -->
                     <tr>
                       <td align="center" valign="top">
                         <img
-                          src="images/logox2.png"
+                          src="https://i.postimg.cc/NFRcLnzM/logox2.png"
                           width="100%"
                           style="
                             margin: 0;
@@ -453,7 +637,23 @@
                     </tr>
                     <!-- ? SPACE  -->
                     <tr>
-                      <td align="center" valign="top">
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        align="center"
+                        valign="top"
+                        style="
+                          font-weight: 600;
+                          font-size: 12px;
+                          letter-spacing: 1.3px;
+                        "
+                      >
                         Our previous logo served us well for a decade, but we
                         felt it was time to modernize our visual identity to
                         better reflect our current brand values, design
@@ -464,6 +664,14 @@
                     </tr>
                     <!-- ? SPACE  -->
                     <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
                       <td align="center" valign="top">
                         <!-- Button -->
                         <table
@@ -472,7 +680,7 @@
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
-                          bgcolor="tomato"
+                          bgcolor="#063E1C"
                         >
                           <tr>
                             <td
@@ -482,7 +690,7 @@
                               style="font-size: 14px"
                             >
                               <a
-                                href="#"
+                                href="https://www.makellos.com/about-us-2-0/"
                                 target="_blank"
                                 style="
                                   color: #ffffff;
@@ -490,6 +698,10 @@
                                   text-decoration: none;
                                   line-height: 35px;
                                   width: 175px;
+                                  font-weight: 600;
+                                  letter-spacing: 2px;
+                                  font-size: 14px;
+                                  text-shadow: 1px 1px grey;
                                 "
                                 >READ MORE
                               </a>
@@ -505,16 +717,23 @@
               </tr>
             </table>
             <!-- ! MAKELLOS REBRAND -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td height="10" style="font-size: 10px; line-height: 10px">
+                  &nbsp;
+                </td>
+              </tr>
+            </table>
 
             <!-- * eRTA™ CABINET -->
             <table
-              width="600"
+              width="800"
               cellspacing="0"
               cellpadding="0"
               border="0"
               align="center"
-              style="max-width: 600px; width: 100%"
-              bgcolor="#FFFFFF"
+              style="max-width: 800px; width: 100%"
+              bgcolor="#F8F8F8"
             >
               <tr>
                 <td align="center" valign="top">
@@ -529,19 +748,12 @@
                     <!-- ! SPACE  -->
                     <tr>
                       <td align="center" valign="top">
-                        <span>02. </span>eRTA™ CABINET
-                      </td>
-                    </tr>
-                    <!-- ! SPACE  -->
-                    <tr>
-                      <td align="center" valign="top">
                         <table
                           width="600"
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
                           class="wrapper"
-                          bgcolor="#FFFFFF"
                         >
                           <!-- SPACE -->
                           <tr>
@@ -564,45 +776,146 @@
                               >
                                 <tr>
                                   <td
-                                    width="300"
+                                    height="20"
+                                    style="font-size: 20px; line-height: 20px"
+                                  >
+                                    &nbsp;
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    width="350"
                                     class="mobile"
                                     align="center"
                                     valign="top"
                                   >
-                                    <ul>
-                                      <li>
-                                        Innovative Hassle-Free Evolutionary RTA
-                                        Cabinet
-                                      </li>
-                                      <li>
-                                        State of the Art Threespine® Click
-                                        Furniture Technology by Välinge
-                                        Innovation
-                                      </li>
-                                      <li>
-                                        Cabinetry Assembly is Now 5-10 Times
-                                        Faster
-                                      </li>
-                                    </ul>
+                                    <table
+                                      width="100%"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      border="0"
+                                    >
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table
+                                            width="350"
+                                            cellspacing="0"
+                                            cellpadding="0"
+                                            border="0"
+                                            align="center"
+                                            style="
+                                              max-width: 350px;
+                                              width: 100%;
+                                            "
+                                          >
+                                            <tr>
+                                              <td align="center" valign="top">
+                                                <table
+                                                  width="350"
+                                                  cellspacing="0"
+                                                  cellpadding="0"
+                                                  border="0"
+                                                  align="center"
+                                                  style="
+                                                    max-width: 350px;
+                                                    width: 100%;
+                                                  "
+                                                >
+                                                  <tr>
+                                                    <td
+                                                      width="50"
+                                                      align="left"
+                                                      valign="top"
+                                                      style="
+                                                        font-size: 50px;
+                                                        font-weight: 700;
+                                                        letter-spacing: 2px;
+                                                        text-shadow: 2px 2px
+                                                          grey;
+                                                        line-height: 23px;
+                                                      "
+                                                    >
+                                                      02.
+                                                    </td>
+                                                    <td
+                                                      width="300"
+                                                      align="center"
+                                                      valign="top"
+                                                      style="
+                                                        font-size: 23px;
+                                                        font-weight: 700;
+                                                        letter-spacing: 2px;
+                                                        text-shadow: 2px 2px
+                                                          grey;
+                                                        line-height: 23px;
+                                                      "
+                                                    >
+                                                      eRTA™ CABINET
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          height="25"
+                                          style="
+                                            font-size: 25px;
+                                            line-height: 25px;
+                                          "
+                                        >
+                                          &nbsp;
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          align="left"
+                                          valign="top"
+                                          style="
+                                            font-weight: 600;
+                                            font-size: 17px;
+                                          "
+                                        >
+                                          <ul style="width: 90%">
+                                            <li style="padding-bottom: 20px">
+                                              Innovative Hassle-Free
+                                              Evolutionary RTA Cabinet
+                                            </li>
+                                            <li style="padding-bottom: 20px">
+                                              State of the Art Threespine® Click
+                                              Furniture Technology by Välinge
+                                              Innovation
+                                            </li>
+                                            <li style="padding-bottom: 20px">
+                                              Cabinetry Assembly is Now 5-10
+                                              Times Faster
+                                            </li>
+                                          </ul>
+                                        </td>
+                                      </tr>
+                                    </table>
                                   </td>
                                   <td
-                                    width="300"
+                                    width="250"
                                     class="mobile"
                                     align="center"
                                     valign="top"
                                   >
                                     <img
-                                      src="images/cabinet.png"
+                                      src="https://i.postimg.cc/wvyHYM5D/cabinet.png"
                                       width="100%"
                                       style="
                                         margin: 0;
                                         padding: 0;
                                         border: none;
                                         display: block;
-                                        max-width: 250px;
+                                        max-width: 240px;
                                       "
                                       border="0"
-                                      class="img"
+                                      class="img res-margin"
                                       alt="image"
                                     />
                                   </td>
@@ -633,7 +946,7 @@
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
-                          bgcolor="tomato"
+                          bgcolor="#063E1C"
                         >
                           <tr>
                             <td
@@ -643,7 +956,7 @@
                               style="font-size: 14px"
                             >
                               <a
-                                href="#"
+                                href="https://www.makellos.com/evok-collection/"
                                 target="_blank"
                                 style="
                                   color: #ffffff;
@@ -651,13 +964,25 @@
                                   text-decoration: none;
                                   line-height: 35px;
                                   width: 175px;
+                                  font-weight: 600;
+                                  letter-spacing: 2px;
+                                  font-size: 14px;
+                                  text-shadow: 1px 1px grey;
                                 "
-                                >Read More
+                                >READ MORE
                               </a>
                             </td>
                           </tr>
                         </table>
                         <!-- Button -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ! SPACE  -->
@@ -679,6 +1004,11 @@
               bgcolor="#FFFFFF"
             >
               <tr>
+                <td height="30" style="font-size: 30px; line-height: 30px">
+                  &nbsp;
+                </td>
+              </tr>
+              <tr>
                 <td align="center" valign="top">
                   <table
                     width="600"
@@ -690,23 +1020,40 @@
                   >
                     <tr>
                       <td
-                        width="300"
-                        align="center"
-                        valign="top"
-                        style="padding: 10px"
-                        bgcolor="#ecf0f1"
+                        width="50"
+                        align="left"
+                        valign="middle"
+                        style="
+                          font-size: 50px;
+                          font-weight: 700;
+                          letter-spacing: 2px;
+                          text-shadow: 2px 2px grey;
+                          line-height: 23px;
+                        "
                       >
                         03.
                       </td>
                       <td
-                        width="300"
-                        align="center"
-                        valign="top"
-                        style="padding: 10px"
-                        bgcolor="#bdc3c7"
+                        width="550"
+                        align="left"
+                        valign="middle"
+                        style="
+                          font-size: 23px;
+                          font-weight: 700;
+                          letter-spacing: 2px;
+                          text-shadow: 2px 2px grey;
+                          line-height: 23px;
+                          padding-left: 20px;
+                        "
                       >
                         EVÖK COLLECTION
-                        <span style="display: block"
+                        <span
+                          style="
+                            display: block;
+                            font-size: 19px;
+                            font-weight: 500;
+                            text-shadow: 1px 1px grey;
+                          "
                           >Featuring our new eRTA™ Cabinet</span
                         >
                       </td>
@@ -729,7 +1076,7 @@
               bgcolor="#FFFFFF"
             >
               <tr>
-                <td align="center" valign="top" style="padding: 10px">
+                <td align="center" valign="top" style="padding: 5px">
                   <table
                     width="600"
                     cellspacing="0"
@@ -739,11 +1086,30 @@
                     style="max-width: 600px; width: 100%"
                   >
                     <tr>
-                      <td align="center" valign="top">LEGACY SERIES</td>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        align="left"
+                        valign="top"
+                        style="
+                          text-transform: uppercase;
+                          font-weight: 700;
+                          font-size: 17px;
+                          letter-spacing: 2px;
+                        "
+                      >
+                        LEGACY SERIES
+                      </td>
                     </tr>
                     <tr>
                       <td align="center" valign="top">
-                        <hr />
+                        <hr style="border: 1px solid #000" />
                       </td>
                     </tr>
                   </table>
@@ -817,7 +1183,7 @@
                                       <tr>
                                         <td align="center" valign="top">
                                           <img
-                                            src="images/arctic.png"
+                                            src="https://i.postimg.cc/28pjmQKy/arctic.png"
                                             width="100%"
                                             style="
                                               margin: 0;
@@ -827,21 +1193,63 @@
                                               max-width: 140px;
                                             "
                                             border="0"
-                                            class="img"
+                                            class="img res-image"
                                             alt="image"
                                           />
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                          "
+                                        >
                                           ARCTIC
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">L1</td>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                            font-style: italic;
+                                          "
+                                        >
+                                          L1
+                                        </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            color: #063e1d;
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 12px;
+                                            letter-spacing: 1.2px;
+                                            text-decoration: underline;
+                                          "
+                                          class="res-margin"
+                                        >
                                           AVAILABLE NOW
                                         </td>
                                       </tr>
@@ -864,7 +1272,7 @@
                                       <tr>
                                         <td align="center" valign="top">
                                           <img
-                                            src="images/arctic.png"
+                                            src="https://i.postimg.cc/4NTGjJYh/nimbus.png"
                                             width="100%"
                                             style="
                                               margin: 0;
@@ -874,21 +1282,63 @@
                                               max-width: 140px;
                                             "
                                             border="0"
-                                            class="img"
+                                            class="img res-image"
                                             alt="image"
                                           />
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                          "
+                                        >
                                           NIMBUS
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">L2</td>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                            font-style: italic;
+                                          "
+                                        >
+                                          L2
+                                        </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            color: #063e1d;
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 12px;
+                                            letter-spacing: 1.2px;
+                                            text-decoration: underline;
+                                          "
+                                          class="res-margin"
+                                        >
                                           AVAILABLE NOW
                                         </td>
                                       </tr>
@@ -911,7 +1361,7 @@
                                       <tr>
                                         <td align="center" valign="top">
                                           <img
-                                            src="images/arctic.png"
+                                            src="https://i.postimg.cc/gchdMw2W/sand.png"
                                             width="100%"
                                             style="
                                               margin: 0;
@@ -921,21 +1371,63 @@
                                               max-width: 140px;
                                             "
                                             border="0"
-                                            class="img"
+                                            class="img res-image"
                                             alt="image"
                                           />
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                          "
+                                        >
                                           SAND
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">L3</td>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                            font-style: italic;
+                                          "
+                                        >
+                                          L3
+                                        </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            color: #063e1d;
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 12px;
+                                            letter-spacing: 1.2px;
+                                            text-decoration: underline;
+                                          "
+                                          class="res-margin"
+                                        >
                                           AVAILABLE NOW
                                         </td>
                                       </tr>
@@ -958,7 +1450,7 @@
                                       <tr>
                                         <td align="center" valign="top">
                                           <img
-                                            src="images/arctic.png"
+                                            src="https://i.postimg.cc/L89p6NB9/sea.png"
                                             width="100%"
                                             style="
                                               margin: 0;
@@ -968,19 +1460,63 @@
                                               max-width: 140px;
                                             "
                                             border="0"
-                                            class="img"
+                                            class="img res-image"
                                             alt="image"
                                           />
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">SEA</td>
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
+                                        </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">L4</td>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                          "
+                                        >
+                                          SEA
+                                        </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 15px;
+                                            font-style: italic;
+                                          "
+                                        >
+                                          L4
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            color: #063e1d;
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 12px;
+                                            letter-spacing: 1.2px;
+                                            text-decoration: underline;
+                                          "
+                                          class="res-margin"
+                                        >
                                           AVAILABLE NOW
                                         </td>
                                       </tr>
@@ -1075,7 +1611,11 @@
                                       border="0"
                                     >
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="padding: 5px"
+                                        >
                                           <table
                                             width="100%"
                                             cellpadding="0"
@@ -1083,13 +1623,24 @@
                                             border="0"
                                           >
                                             <tr>
-                                              <td align="center" valign="top">
+                                              <td
+                                                align="left"
+                                                valign="top"
+                                                style="
+                                                  text-transform: uppercase;
+                                                  font-weight: 700;
+                                                  font-size: 17px;
+                                                  letter-spacing: 2px;
+                                                "
+                                              >
                                                 ESSENCE SERIES
                                               </td>
                                             </tr>
                                             <tr>
                                               <td align="center" valign="top">
-                                                <hr />
+                                                <hr
+                                                  style="border: 1px solid #000"
+                                                />
                                               </td>
                                             </tr>
                                           </table>
@@ -1147,7 +1698,7 @@
                                                             valign="top"
                                                           >
                                                             <img
-                                                              src="images/arctic.png"
+                                                              src="https://i.postimg.cc/cL0stsZN/E1.png"
                                                               width="100%"
                                                               style="
                                                                 margin: 0;
@@ -1157,15 +1708,31 @@
                                                                 max-width: 140px;
                                                               "
                                                               border="0"
-                                                              class="img"
+                                                              class="img res-image"
                                                               alt="image"
                                                             />
                                                           </td>
                                                         </tr>
                                                         <tr>
                                                           <td
+                                                            height="10"
+                                                            style="
+                                                              font-size: 10px;
+                                                              line-height: 10px;
+                                                            "
+                                                          >
+                                                            &nbsp;
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                            "
                                                           >
                                                             ARCTIC
                                                           </td>
@@ -1174,6 +1741,12 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                              font-style: italic;
+                                                            "
                                                           >
                                                             E1
                                                           </td>
@@ -1182,6 +1755,15 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              color: #063e1d;
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 12px;
+                                                              letter-spacing: 1.2px;
+                                                              text-decoration: underline;
+                                                            "
+                                                            class="res-margin"
                                                           >
                                                             AVAILABLE NOW
                                                           </td>
@@ -1208,7 +1790,7 @@
                                                             valign="top"
                                                           >
                                                             <img
-                                                              src="images/arctic.png"
+                                                              src="https://i.postimg.cc/hG3gYTmS/evergreen.png"
                                                               width="100%"
                                                               style="
                                                                 margin: 0;
@@ -1218,15 +1800,31 @@
                                                                 max-width: 140px;
                                                               "
                                                               border="0"
-                                                              class="img"
+                                                              class="img res-image"
                                                               alt="image"
                                                             />
                                                           </td>
                                                         </tr>
                                                         <tr>
                                                           <td
+                                                            height="10"
+                                                            style="
+                                                              font-size: 10px;
+                                                              line-height: 10px;
+                                                            "
+                                                          >
+                                                            &nbsp;
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                            "
                                                           >
                                                             EVERGREEN
                                                           </td>
@@ -1235,6 +1833,12 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                              font-style: italic;
+                                                            "
                                                           >
                                                             E5
                                                           </td>
@@ -1243,8 +1847,17 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              color: #063e1d;
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 12px;
+                                                              letter-spacing: 1.2px;
+                                                              text-decoration: underline;
+                                                            "
+                                                            class="res-margin"
                                                           >
-                                                            AVAILABLE NOW
+                                                            COMING SOON
                                                           </td>
                                                         </tr>
                                                       </table>
@@ -1287,7 +1900,11 @@
                                       border="0"
                                     >
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="padding: 5px"
+                                        >
                                           <table
                                             width="100%"
                                             cellpadding="0"
@@ -1295,13 +1912,24 @@
                                             border="0"
                                           >
                                             <tr>
-                                              <td align="center" valign="top">
-                                                ESSENCE SERIES
+                                              <td
+                                                align="left"
+                                                valign="top"
+                                                style="
+                                                  text-transform: uppercase;
+                                                  font-weight: 700;
+                                                  font-size: 17px;
+                                                  letter-spacing: 2px;
+                                                "
+                                              >
+                                                DAWN SERIES
                                               </td>
                                             </tr>
                                             <tr>
                                               <td align="center" valign="top">
-                                                <hr />
+                                                <hr
+                                                  style="border: 1px solid #000"
+                                                />
                                               </td>
                                             </tr>
                                           </table>
@@ -1359,7 +1987,7 @@
                                                             valign="top"
                                                           >
                                                             <img
-                                                              src="images/arctic.png"
+                                                              src="https://i.postimg.cc/fTxzbVGK/D1.png"
                                                               width="100%"
                                                               style="
                                                                 margin: 0;
@@ -1369,15 +1997,31 @@
                                                                 max-width: 140px;
                                                               "
                                                               border="0"
-                                                              class="img"
+                                                              class="img res-image"
                                                               alt="image"
                                                             />
                                                           </td>
                                                         </tr>
                                                         <tr>
                                                           <td
+                                                            height="10"
+                                                            style="
+                                                              font-size: 10px;
+                                                              line-height: 10px;
+                                                            "
+                                                          >
+                                                            &nbsp;
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                            "
                                                           >
                                                             ARCTIC
                                                           </td>
@@ -1386,6 +2030,12 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                              font-style: italic;
+                                                            "
                                                           >
                                                             D1
                                                           </td>
@@ -1394,8 +2044,17 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              color: #063e1d;
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 12px;
+                                                              letter-spacing: 1.2px;
+                                                              text-decoration: underline;
+                                                            "
+                                                            class="res-margin"
                                                           >
-                                                            AVAILABLE NOW
+                                                            COMING SOON
                                                           </td>
                                                         </tr>
                                                       </table>
@@ -1420,7 +2079,7 @@
                                                             valign="top"
                                                           >
                                                             <img
-                                                              src="images/arctic.png"
+                                                              src="https://i.postimg.cc/MGGqtdvP/eclipse.png"
                                                               width="100%"
                                                               style="
                                                                 margin: 0;
@@ -1430,15 +2089,31 @@
                                                                 max-width: 140px;
                                                               "
                                                               border="0"
-                                                              class="img"
+                                                              class="img res-image"
                                                               alt="image"
                                                             />
                                                           </td>
                                                         </tr>
                                                         <tr>
                                                           <td
+                                                            height="10"
+                                                            style="
+                                                              font-size: 10px;
+                                                              line-height: 10px;
+                                                            "
+                                                          >
+                                                            &nbsp;
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                            "
                                                           >
                                                             ECLIPSE
                                                           </td>
@@ -1447,6 +2122,12 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 15px;
+                                                              font-style: italic;
+                                                            "
                                                           >
                                                             D6
                                                           </td>
@@ -1455,8 +2136,16 @@
                                                           <td
                                                             align="center"
                                                             valign="top"
+                                                            style="
+                                                              color: #063e1d;
+                                                              text-transform: uppercase;
+                                                              font-weight: 700;
+                                                              font-size: 12px;
+                                                              letter-spacing: 1.2px;
+                                                              text-decoration: underline;
+                                                            "
                                                           >
-                                                            AVAILABLE NOW
+                                                            COMING SOON
                                                           </td>
                                                         </tr>
                                                       </table>
@@ -1520,7 +2209,7 @@
               bgcolor="#FFFFFF"
             >
               <tr>
-                <td align="center" valign="top" style="padding: 10px">
+                <td align="center" valign="top">
                   <table
                     width="600"
                     cellspacing="0"
@@ -1530,20 +2219,32 @@
                     style="max-width: 600px; width: 100%"
                   >
                     <tr>
-                      <td align="center" valign="top">
+                      <td
+                        align="center"
+                        valign="top"
+                        style="font-weight: 600; font-size: 17px"
+                      >
                         Contact your Sales Representative or Click Below.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <tr>
                       <td align="center" valign="top">
                         <!-- Button -->
                         <table
-                          width="175"
+                          width="200"
                           height="35"
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
-                          bgcolor="tomato"
+                          bgcolor="#063E1C"
                         >
                           <tr>
                             <td
@@ -1553,16 +2254,21 @@
                               style="font-size: 14px"
                             >
                               <a
-                                href="#"
+                                href="mailto:orders@makellos.com"
                                 target="_blank"
                                 style="
                                   color: #ffffff;
                                   display: inline-block;
                                   text-decoration: none;
                                   line-height: 35px;
-                                  width: 175px;
+                                  width: 200px;
+                                  font-weight: 600;
+                                  letter-spacing: 2px;
+                                  font-size: 14px;
+                                  text-shadow: 1px 1px grey;
                                 "
-                                >REQUEST SAMPLES
+                              >
+                                REQUEST SAMPLES
                               </a>
                             </td>
                           </tr>
@@ -1573,20 +2279,30 @@
                   </table>
                 </td>
               </tr>
+              <tr>
+                <td height="20" style="font-size: 20px; line-height: 20px">
+                  &nbsp;
+                </td>
+              </tr>
             </table>
             <!-- todo SAMPLE RQ  -->
             <!-- ? EVÖK COLLECTION -->
 
             <!-- ! ONLINE MYPORTAL  -->
             <table
-              width="600"
+              width="800"
               cellspacing="0"
               cellpadding="0"
               border="0"
               align="center"
-              style="max-width: 600px; width: 100%"
-              bgcolor="#FFFFFF"
+              style="max-width: 800px; width: 100%"
+              bgcolor="#F8F8F8"
             >
+              <tr>
+                <td height="20" style="font-size: 20px; line-height: 20px">
+                  &nbsp;
+                </td>
+              </tr>
               <tr>
                 <td align="center" valign="top">
                   <table
@@ -1600,14 +2316,62 @@
                     <!-- ? ROW I  -->
                     <tr>
                       <td align="center" valign="top">
-                        <span>04. </span> NEW ONLINE MYPORTAL
+                        <table
+                          width="600"
+                          cellspacing="0"
+                          cellpadding="0"
+                          border="0"
+                          align="center"
+                          style="max-width: 600px; width: 100%"
+                        >
+                          <tr>
+                            <td
+                              width="50"
+                              align="left"
+                              valign="middle"
+                              style="
+                                padding: 10px;
+                                font-size: 50px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                text-shadow: 2px 2px grey;
+                                line-height: 23px;
+                              "
+                            >
+                              04.
+                            </td>
+                            <td
+                              width="550"
+                              align="left"
+                              valign="middle"
+                              style="
+                                padding: 10px;
+                                font-size: 23px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                text-shadow: 2px 2px grey;
+                                line-height: 23px;
+                              "
+                            >
+                              NEW ONLINE MYPORTAL
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="15"
+                        style="font-size: 15px; line-height: 15px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ? ROW I  -->
                     <tr>
                       <td align="center" valign="top">
                         <img
-                          src="images/ss.png"
+                          src="https://i.postimg.cc/CKdpb5Q9/ss.png"
                           width="100%"
                           style="
                             margin: 0;
@@ -1622,11 +2386,31 @@
                         />
                       </td>
                     </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
                     <!-- ? ROW I  -->
                     <tr>
-                      <td align="center" valign="top">
+                      <td
+                        align="center"
+                        valign="top"
+                        style="font-weight: 600; font-size: 14px"
+                      >
                         Request Access to Your Online Portal with your Sales
                         Representative or Click Below.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="15"
+                        style="font-size: 15px; line-height: 15px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ? ROW I  -->
@@ -1638,7 +2422,6 @@
                           cellspacing="0"
                           border="0"
                           class="wrapper"
-                          bgcolor="#FFFFFF"
                         >
                           <!-- SPACE -->
                           <tr>
@@ -1661,7 +2444,7 @@
                               >
                                 <tr>
                                   <td
-                                    width="300"
+                                    width="290"
                                     class="mobile"
                                     align="center"
                                     valign="top"
@@ -1673,7 +2456,7 @@
                                       cellpadding="0"
                                       cellspacing="0"
                                       border="0"
-                                      bgcolor="tomato"
+                                      bgcolor="#063E1C"
                                     >
                                       <tr>
                                         <td
@@ -1683,7 +2466,7 @@
                                           style="font-size: 14px"
                                         >
                                           <a
-                                            href="#"
+                                            href="https://myportal.makellos.com"
                                             target="_blank"
                                             style="
                                               color: #ffffff;
@@ -1691,6 +2474,10 @@
                                               text-decoration: none;
                                               line-height: 35px;
                                               width: 175px;
+                                              font-weight: 600;
+                                              letter-spacing: 2px;
+                                              font-size: 14px;
+                                              text-shadow: 1px 1px grey;
                                             "
                                             >ACCESS NOW
                                           </a>
@@ -1700,7 +2487,16 @@
                                     <!-- Button -->
                                   </td>
                                   <td
-                                    width="300"
+                                    width="20"
+                                    class="mobile"
+                                    align="center"
+                                    valign="top"
+                                    style="font-size: 10px"
+                                  >
+                                    &nbsp;
+                                  </td>
+                                  <td
+                                    width="290"
                                     class="mobile"
                                     align="center"
                                     valign="top"
@@ -1712,7 +2508,7 @@
                                       cellpadding="0"
                                       cellspacing="0"
                                       border="0"
-                                      bgcolor="tomato"
+                                      bgcolor="#063E1C"
                                     >
                                       <tr>
                                         <td
@@ -1722,7 +2518,7 @@
                                           style="font-size: 14px"
                                         >
                                           <a
-                                            href="#"
+                                            href="https://youtu.be/yPqZLjC-v_A"
                                             target="_blank"
                                             style="
                                               color: #ffffff;
@@ -1730,8 +2526,13 @@
                                               text-decoration: none;
                                               line-height: 35px;
                                               width: 175px;
+                                              font-weight: 600;
+                                              letter-spacing: 2px;
+                                              font-size: 14px;
+                                              text-shadow: 1px 1px grey;
                                             "
-                                            >SET-UP TUTORIAL
+                                          >
+                                            SET-UP TUTORIAL
                                           </a>
                                         </td>
                                       </tr>
@@ -1757,13 +2558,22 @@
                     </tr>
                     <!-- ? ROW I  -->
                     <tr>
-                      <td align="center" valign="top">
+                      <td
+                        align="center"
+                        valign="top"
+                        style="font-weight: 600; font-size: 12px"
+                      >
                         (V1 Portal to be phased out by End of 2023:
                         portal.makellos.com)
                       </td>
                     </tr>
                     <!-- ? ROW I  -->
                   </table>
+                </td>
+              </tr>
+              <tr>
+                <td height="25" style="font-size: 25px; line-height: 25px">
+                  &nbsp;
                 </td>
               </tr>
             </table>
@@ -1797,13 +2607,12 @@
                           cellspacing="0"
                           border="0"
                           class="wrapper"
-                          bgcolor="#FFFFFF"
                         >
                           <!-- SPACE -->
                           <tr>
                             <td
-                              height="10"
-                              style="font-size: 10px; line-height: 10px"
+                              height="20"
+                              style="font-size: 20px; line-height: 20px"
                             >
                               &nbsp;
                             </td>
@@ -1833,28 +2642,91 @@
                                       border="0"
                                     >
                                       <tr>
-                                        <td align="center" valign="top">05.</td>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            padding: 10px;
+                                            font-size: 50px;
+                                            font-weight: 700;
+                                            letter-spacing: 2px;
+                                            text-shadow: 2px 2px grey;
+                                            line-height: 23px;
+                                          "
+                                        >
+                                          05.
+                                        </td>
                                       </tr>
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            padding: 10px;
+                                            font-size: 23px;
+                                            font-weight: 700;
+                                            letter-spacing: 2px;
+                                            text-shadow: 2px 2px grey;
+                                            line-height: 23px;
+                                          "
+                                        >
                                           CLEARANCE STORE
                                         </td>
                                       </tr>
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            font-size: 19px;
+                                            font-weight: 700;
+                                            letter-spacing: 2px;
+                                            text-shadow: 1px 1px grey;
+                                            line-height: 19px;
+                                          "
+                                        >
                                           *FINAL SALE*
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
                                         </td>
                                       </tr>
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            font-weight: 500;
+                                            font-size: 13px;
+                                          "
+                                        >
                                           Shop our Factory Seconds. These
                                           products may be just parts or have no
                                           finished ends. Not available
                                           assembled, and only available for pick
                                           up or delivery with an order.
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
                                         </td>
                                       </tr>
                                       <!-- ! ROW S  -->
@@ -1867,7 +2739,7 @@
                                             cellpadding="0"
                                             cellspacing="0"
                                             border="0"
-                                            bgcolor="tomato"
+                                            bgcolor="#063E1C"
                                           >
                                             <tr>
                                               <td
@@ -1877,7 +2749,7 @@
                                                 style="font-size: 14px"
                                               >
                                                 <a
-                                                  href="#"
+                                                  href="https://store.makellos.com"
                                                   target="_blank"
                                                   style="
                                                     color: #ffffff;
@@ -1885,8 +2757,13 @@
                                                     text-decoration: none;
                                                     line-height: 35px;
                                                     width: 175px;
+                                                    font-weight: 600;
+                                                    letter-spacing: 2px;
+                                                    font-size: 14px;
+                                                    text-shadow: 1px 1px grey;
                                                   "
-                                                  >SHOP NOW
+                                                >
+                                                  SHOP NOW
                                                 </a>
                                               </td>
                                             </tr>
@@ -1894,10 +2771,34 @@
                                           <!-- Button -->
                                         </td>
                                       </tr>
+                                      <tr>
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
+                                        </td>
+                                      </tr>
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
-                                          ACCESS CODE: FINALSALE
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            font-weight: 600;
+                                            font-size: 17px;
+                                          "
+                                          class="res-margin"
+                                        >
+                                          <span
+                                            style="text-decoration: underline"
+                                          >
+                                            ACCESS CODE:</span
+                                          >
+                                          FINALSALE
                                         </td>
                                       </tr>
                                       <!-- ! ROW S  -->
@@ -1918,27 +2819,91 @@
                                       border="0"
                                     >
                                       <tr>
-                                        <td align="center" valign="top">06.</td>
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            padding: 10px;
+                                            font-size: 50px;
+                                            font-weight: 700;
+                                            letter-spacing: 2px;
+                                            text-shadow: 2px 2px grey;
+                                            line-height: 23px;
+                                          "
+                                        >
+                                          06.
+                                        </td>
                                       </tr>
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            padding: 10px;
+                                            font-size: 23px;
+                                            font-weight: 700;
+                                            letter-spacing: 2px;
+                                            text-shadow: 2px 2px grey;
+                                            line-height: 23px;
+                                          "
+                                        >
                                           EURO COLLECTION
                                         </td>
                                       </tr>
+
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            font-size: 19px;
+                                            font-weight: 700;
+                                            letter-spacing: 2px;
+                                            text-shadow: 1px 1px grey;
+                                            line-height: 19px;
+                                          "
+                                        >
                                           *UPDATE*
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
                                         </td>
                                       </tr>
                                       <!-- ! ROW S  -->
                                       <tr>
-                                        <td align="center" valign="top">
+                                        <td
+                                          align="center"
+                                          valign="top"
+                                          style="
+                                            font-weight: 500;
+                                            font-size: 13px;
+                                          "
+                                        >
                                           We are beginning to utilize our new
                                           eTRA cabinet with our Euro Collection.
                                           + Utilizing Innovative Technologies +
                                           Wall Kitchen Cabinet Depth is Now 13”
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td
+                                          height="10"
+                                          style="
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                          "
+                                        >
+                                          &nbsp;
                                         </td>
                                       </tr>
                                       <!-- ! ROW S  -->
@@ -1951,7 +2916,7 @@
                                             cellpadding="0"
                                             cellspacing="0"
                                             border="0"
-                                            bgcolor="tomato"
+                                            bgcolor="#063E1C"
                                           >
                                             <tr>
                                               <td
@@ -1961,7 +2926,7 @@
                                                 style="font-size: 14px"
                                               >
                                                 <a
-                                                  href="#"
+                                                  href="https://www.makellos.com/euro-collection/"
                                                   target="_blank"
                                                   style="
                                                     color: #ffffff;
@@ -1969,8 +2934,13 @@
                                                     text-decoration: none;
                                                     line-height: 35px;
                                                     width: 175px;
+                                                    font-weight: 600;
+                                                    letter-spacing: 2px;
+                                                    font-size: 14px;
+                                                    text-shadow: 1px 1px grey;
                                                   "
-                                                  >READ MORE
+                                                >
+                                                  READ MORE
                                                 </a>
                                               </td>
                                             </tr>
@@ -2006,19 +2976,29 @@
                   </table>
                 </td>
               </tr>
+              <tr>
+                <td height="20" style="font-size: 20px; line-height: 20px">
+                  &nbsp;
+                </td>
+              </tr>
             </table>
             <!-- todo STORE AND COLLECTION  -->
 
             <!-- ? MAKELLOS DONATE  -->
             <table
-              width="600"
+              width="800"
               cellspacing="0"
               cellpadding="0"
               border="0"
               align="center"
-              style="max-width: 600px; width: 100%"
-              bgcolor="#FFFFFF"
+              style="max-width: 800px; width: 100%"
+              bgcolor="#F8F8F8"
             >
+              <tr>
+                <td height="20" style="font-size: 20px; line-height: 20px">
+                  &nbsp;
+                </td>
+              </tr>
               <tr>
                 <td align="center" valign="top" style="padding: 10px">
                   <table
@@ -2032,22 +3012,68 @@
                     <!-- ? SPACE  -->
                     <tr>
                       <td align="center" valign="top">
-                        <span>07. </span>MAKELLOS DONATES TO HABITAT FOR
-                        HUMANITY
+                        <table
+                          width="600"
+                          cellspacing="0"
+                          cellpadding="0"
+                          border="0"
+                          align="center"
+                          style="max-width: 600px; width: 100%"
+                        >
+                          <tr>
+                            <td
+                              width="50"
+                              align="left"
+                              valign="middle"
+                              style="
+                                padding: 10px;
+                                font-size: 35px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                text-shadow: 2px 2px grey;
+                                line-height: 23px;
+                              "
+                            >
+                              07.
+                            </td>
+                            <td
+                              width="550"
+                              align="left"
+                              valign="middle"
+                              style="
+                                font-size: 18px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                text-shadow: 1px 1px grey;
+                                line-height: 20px;
+                              "
+                            >
+                              MAKELLOS DONATES TO HABITAT FOR HUMANITY
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ? SPACE  -->
                     <tr>
                       <td align="center" valign="top">
                         <img
-                          src="images/logox1.png"
+                          src="https://i.postimg.cc/ydMK1Knt/logox1.png"
                           width="100%"
                           style="
                             margin: 0;
                             padding: 0;
                             border: none;
                             display: block;
-                            max-width: 500px;
+                            max-width: 400px;
                           "
                           border="0"
                           class="img"
@@ -2055,15 +3081,43 @@
                         />
                       </td>
                     </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
                     <!-- ? SPACE  -->
                     <tr>
-                      <td align="center" valign="top">
-                        As a leading kitchen cabinet company, we are thrilled to
-                        announce our first-ever philanthropic initiative.
-                        Recognizing the importance of giving back to the
-                        community, we have made a substantial donation of
-                        $100,000 worth of cabinets to Habitat for Humanity in
-                        Philadelphia.
+                      <td
+                        align="center"
+                        valign="top"
+                        style="font-weight: 600; font-size: 13px"
+                      >
+                        <span
+                          style="
+                            display: block;
+                            width: 90%;
+                            letter-spacing: 0.6px;
+                          "
+                        >
+                          As a leading kitchen cabinet company, we are thrilled
+                          to announce our first-ever philanthropic initiative.
+                          Recognizing the importance of giving back to the
+                          community, we have made a substantial donation of
+                          $100,000 worth of cabinets to Habitat for Humanity in
+                          Philadelphia.</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="10"
+                        style="font-size: 10px; line-height: 10px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ? SPACE  -->
@@ -2076,7 +3130,7 @@
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
-                          bgcolor="tomato"
+                          bgcolor="#063E1C"
                         >
                           <tr>
                             <td
@@ -2086,7 +3140,7 @@
                               style="font-size: 14px"
                             >
                               <a
-                                href="#"
+                                href="https://www.makellos.com/strengthening-community/"
                                 target="_blank"
                                 style="
                                   color: #ffffff;
@@ -2094,13 +3148,26 @@
                                   text-decoration: none;
                                   line-height: 35px;
                                   width: 175px;
+                                  font-weight: 600;
+                                  letter-spacing: 2px;
+                                  font-size: 14px;
+                                  text-shadow: 1px 1px grey;
                                 "
-                                >READ MORE
+                              >
+                                READ MORE
                               </a>
                             </td>
                           </tr>
                         </table>
                         <!-- Button -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="40"
+                        style="font-size: 40px; line-height: 40px"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <!-- ? SPACE  -->
